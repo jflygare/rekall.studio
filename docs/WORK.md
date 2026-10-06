@@ -6,11 +6,11 @@ Use statuses `pending`, `in progress`, `blocked`, `awaiting review`, and `done`.
 
 ## PREP-001 — Prepare portable AI collaboration
 
-- **Status:** awaiting review
+- **Status:** done
 - **Assignment:** Jesse approved implementation on 2026-10-06.
 - **Objective:** A fresh agent can understand the project, find assigned work, contribute within its authority, and leave a durable handoff.
 - **Branch:** `docs/portable-ai-collaboration`
-- **PR:** [Draft PR #1](https://github.com/jflygare/rekall.studio/pull/1), targeting `main`.
+- **PR:** [PR #1](https://github.com/jflygare/rekall.studio/pull/1), merged into `main` on 2026-10-06.
 - **Scope:** Shared repository guidance, task tracking, decision records, local ignore rules, and onboarding validation. No application scaffolding, stack selection, or product implementation.
 
 ### Acceptance criteria
@@ -27,7 +27,7 @@ Use statuses `pending`, `in progress`, `blocked`, `awaiting review`, and `done`.
 - **Completed:** Added orientation, shared agent instructions, a two-task work queue, three owner-approved decision records, and local secret/session ignore rules. Preserved the brain dump and inspiration assets. Committed task changes, pushed the branch, and opened draft PR #1.
 - **Validation:** Local Markdown links resolve; ignore checks retain shared guidance, future skills/adapters, and sanitized environment examples. Staged whitespace and full-diff reviews passed with no unrelated changes or sensitive data found. A fresh agent with no conversation history performed read-only onboarding and correctly identified project state, idea/decision boundaries, task assignments, authority, and verification duties. No application checks exist or were claimed.
 - **Blockers:** None currently identified.
-- **Next action:** Jesse reviews draft PR #1 and decides when to merge. DISCOVERY-001 remains unassigned until explicitly requested.
+- **Next action:** No implementation work remains for PREP-001. DISCOVERY-001 remains unassigned until explicitly requested.
 
 ## DISCOVERY-001 — Refine the first implementation objective
 
