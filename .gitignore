@@ -1,1 +1,18 @@
 .DS_Store
+
+# Local secrets; retain sanitized examples when introduced.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Local agent settings and session artifacts. Shared guidance stays tracked.
+/.codex/config.toml
+/.codex/auth.json
+/.codex/sessions/
+/.codex/log/
+/.claude/settings.local.json
+/.claude/projects/
+/.agent-sessions/
